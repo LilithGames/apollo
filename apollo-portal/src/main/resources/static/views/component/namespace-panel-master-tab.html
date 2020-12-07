@@ -184,8 +184,7 @@
 
                     <button type="button" class="btn btn-default btn-sm J_tableview_btn" data-tooltip="tooltip"
                         data-placement="bottom" title="{{'Component.Namespace.Master.Items.SyncItemTips' | translate }}"
-                        ng-click="goToSyncPage(namespace)" ng-show="namespace.viewType == 'table' && namespace.displayControl.currentOperateBranch == 'master'
-                             && namespace.hasModifyPermission && namespace.isPropertiesFormat">
+                        ng-click="goToSyncPage(namespace)" ng-show="namespace.hasModifyPermission">
                         <img src="img/sync.png">
                         {{'Component.Namespace.Master.Items.SyncItem' | translate }}
                     </button>
